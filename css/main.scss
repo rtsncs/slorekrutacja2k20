@@ -7,6 +7,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: #1f1f1f;
   overflow-x: hidden;
+  color: white;
 }
 .mainHeader {
   width: 100vw;
@@ -61,7 +62,31 @@ body {
   width: 85vw;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10vw;
+  margin-top: 2vw;
+}
+
+.klasy {
+  display: flex;
+  justify-content: center;
+}
+
+.kafle {
+  display: flex;
+  color: white;
+  background-color: green;
+  text-align: center;
+  text-decoration: none;
+  font-size: 4rem;
+  height: 13vh;
+  width: 999vh;
+  margin: 0 12px 0 12px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease-in-out;
+}
+
+.kafle:hover {
+  background-color: lightgreen;
 }
 
 //CHUJ
