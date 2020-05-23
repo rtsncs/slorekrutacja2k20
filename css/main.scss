@@ -67,7 +67,14 @@ body {
 
 .klasy {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  width: inherit;
+  .klasy1,
+  .klasy2 {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .kafle {
@@ -78,8 +85,8 @@ body {
   text-decoration: none;
   font-size: 4rem;
   height: 13vh;
-  width: 999vh;
-  margin: 0 12px 0 12px;
+  width: 100%;
+  margin-bottom: 12px;
   align-items: center;
   justify-content: center;
   transition: 0.2s ease-in-out;
@@ -87,6 +94,33 @@ body {
 
 .kafle:hover {
   background-color: lightgreen;
+}
+
+@media screen and (min-width: 1100px) {
+  .klasy {
+    flex-direction: row;
+    .klasy1,
+    .klasy2 {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .kafle {
+    margin: 0 6px 0 6px;
+    width: 33%;
+  }
+  .klasy {
+    .klasy1,
+    .klasy2 {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .klasy1 {
+      margin-bottom: 12px;
+    }
+  }
 }
 
 //CHUJ
