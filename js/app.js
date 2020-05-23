@@ -1,1 +1,1 @@
-console.log("ELO");
+console.log("SLO to generalnie dobra szkoła mordo");

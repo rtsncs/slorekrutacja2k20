@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
   color: white;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 .mainHeader {
   width: 100vw;
   height: 20vh;
@@ -123,107 +127,60 @@ body {
   }
 }
 
-//CHUJ
 .footer {
   margin-top: 20px !important;
 }
 .footer_own {
-  width: 100vw;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .footer_text {
-  display: grid;
-  grid-template-areas:
-    "title title title"
-    "box1 box2 box3";
-  color: white;
-  width: 85vw;
-  grid-column-gap: 30px;
-  grid-row-gap: 50px;
-  padding-bottom: 20px;
-}
-.main_box {
-  grid-area: title;
+  text-align: center;
   font-size: 25px;
-  text-align: center;
-  border-bottom: #636363 2px solid;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 100%;
+  border-bottom: green 2px solid;
 }
-.box1 {
-  grid-area: box1;
+.mainbox {
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.box2 {
-  grid-area: box2;
-}
+.box1,
+.box2,
 .box3 {
-  grid-area: box3;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
 }
-.footer_img {
-  width: 60px;
-  height: 60px;
+.footer_h3_n {
+  width: 100%;
+  text-align: center;
+  border-bottom: green 2px solid;
+  margin-bottom: 5px;
 }
-.h3_footer_n {
-  color: white;
+.footer_list {
+  font-size: 14px;
+  list-style: none;
+  text-decoration: none;
   text-align: center;
 }
-.h3_footer_n {
-  border-bottom: #636363 2px solid;
-  padding-bottom: 10px;
-}
-.box2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-}
-.details > ul > li > a {
-  color: white;
-  text-decoration: none;
-  font-weight: normal;
-}
-.details > ul > li > a:hover {
-  color: #ff5500;
-}
-.details_list li {
-  list-style: none;
-  text-decoration: none;
-  font-weight: normal;
-}
-.details_list a {
-  list-style: none;
-  text-decoration: none;
-  font-weight: normal;
-}
-@media (max-width: 470px) {
-  .footer_text {
-    grid-template-areas:
-      "title"
-      "box1"
-      "box2"
-      "box3";
-    grid-template-columns: 1fr;
-    width: 90vw;
-    grid-row-gap: 20px;
+@media screen and (min-width: 650px) {
+  .mainbox {
+    flex-direction: row;
+    align-items: baseline;
   }
   .box1,
   .box2,
   .box3 {
-    text-align: center;
-    font-size: 14px;
-  }
-  .main_box {
-    font-size: 17px;
-  }
-  .details_list > li {
-    list-style-type: none !important;
+    width: 33%;
   }
 }
-///</CHUJ>
