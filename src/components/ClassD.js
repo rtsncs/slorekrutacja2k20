@@ -31,292 +31,177 @@ const ClassD = () => {
         informatyki na poziomie rozszerzonym
       </li>
 
-      <table class="tg">
+      <table class="tab">
         <thead>
           <tr>
-            <th class="tg-t3" colspan="2">
-              Rok szkolny
-            </th>
-            <th class="tg-t2">2020/21</th>
-            <th class="tg-t2">2021/22</th>
-            <th class="tg-t2">2022/23</th>
-            <th class="tg-t2">2023/24</th>
-            <th class="tg-t7" rowspan="4">
-              Razem tyg.
-            </th>
-            <th class="tg-t8" rowspan="4">
-              Efekt. liczbagodzin
-            </th>
-          </tr>
-          <tr>
-            <td class="tg-t3" colspan="2">
-              Klasa
-            </td>
-            <td class="tg-t9">1</td>
-            <td class="tg-t9">2</td>
-            <td class="tg-t9">3</td>
-            <td class="tg-t9">4</td>
-          </tr>
-          <tr>
-            <td class="tg-t10" colspan="2">
-              Liczba tygodni
-            </td>
-            <td class="tg-t5">38</td>
-            <td class="tg-t5">38</td>
-            <td class="tg-t5">38</td>
-            <td class="tg-t5">38</td>
-          </tr>
-          <tr>
-            <td class="tg-t10" colspan="2">
-              Efektywna liczba tygodni
-            </td>
-            <td class="tg-t5">36</td>
-            <td class="tg-t5">36</td>
-            <td class="tg-t5">36</td>
-            <td class="tg-t5">36</td>
+            <th class="tabelka">Rok/klasa</th>
+            <th class="tabelka">1</th>
+            <th class="tabelka">2</th>
+            <th class="tabelka">3</th>
+            <th class="tabelka">4</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">j. polski</td>
-            <td class="tg-t11">4</td>
-            <td class="tg-t11">4</td>
-            <td class="tg-t11">4</td>
-            <td class="tg-t11">4</td>
-            <td class="tg-t12">16</td>
-            <td class="tg-t13">576</td>
+            <td class="tabelka">j.polski</td>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">j. angielski</td>
-            <td class="tg-t11">3</td>
-            <td class="tg-t11">3</td>
-            <td class="tg-t11">3</td>
-            <td class="tg-t11">3</td>
-            <td class="tg-t12">12</td>
-            <td class="tg-t13">432</td>
+            <td class="tabelka">j.angielski</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">j. niemiecki</td>
-            <td class="tg-t11">2 (1j)</td>
-            <td class="tg-t11">2 (1j)</td>
-            <td class="tg-t11">2 (1j)</td>
-            <td class="tg-t11">2 (1j)</td>
-            <td class="tg-t12">8</td>
-            <td class="tg-t13">288</td>
+            <td class="tabelka">j.niemiecki</td>
+            <td>2(1j)</td>
+            <td>2(1j)</td>
+            <td>2(1j)</td>
+            <td>2(1j)</td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">j. francuski</td>
-            <td class="tg-t11">2 (1j)</td>
-            <td class="tg-t11">2 (1j)</td>
-            <td class="tg-t11">2 (1j)</td>
-            <td class="tg-t11">2 (1j)</td>
-            <td class="tg-t12">8</td>
-            <td class="tg-t13">288</td>
+            <td class="tabelka">j.francuski</td>
+            <td>2(1j)</td>
+            <td>2(1j)</td>
+            <td>2(1j)</td>
+            <td>2(1j)</td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">matematyka</td>
-            <td class="tg-t11">3</td>
-            <td class="tg-t11">4</td>
-            <td class="tg-t11">3</td>
-            <td class="tg-t11">4</td>
-            <td class="tg-t12">14</td>
-            <td class="tg-t13">504</td>
+            <td class="tabelka">matematyka</td>
+            <td>3</td>
+            <td>4</td>
+            <td>3</td>
+            <td>4</td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">wf</td>
-            <td class="tg-t11">3</td>
-            <td class="tg-t11">3</td>
-            <td class="tg-t11">3</td>
-            <td class="tg-t11">3</td>
-            <td class="tg-t12">12</td>
-            <td class="tg-t13">432</td>
+            <td class="tabelka">wf</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">gw</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t12">4</td>
-            <td class="tg-t13">144</td>
+            <td class="tabelka">godz.wych</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">biologia</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">2</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t12">4</td>
-            <td class="tg-t13">144</td>
+            <td class="tabelka">biologia</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+            <td></td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">chemia</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">2</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t12">4</td>
-            <td class="tg-t13">144</td>
+            <td class="tabelka">chemia</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+            <td></td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">geografia</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">2</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t12">4</td>
-            <td class="tg-t13">144</td>
+            <td class="tabelka">geografia</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+            <td></td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">historia</td>
-            <td class="tg-t11">2</td>
-            <td class="tg-t11">2</td>
-            <td class="tg-t11">2</td>
-            <td class="tg-t11">2</td>
-            <td class="tg-t12">8</td>
-            <td class="tg-t13">288</td>
+            <td class="tabelka">historia</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">wos</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t12">2</td>
-            <td class="tg-t13">72</td>
+            <td class="tabelka">wos</td>
+            <td>1</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">fizyka</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">2</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t12">4</td>
-            <td class="tg-t13">144</td>
+            <td class="tabelka">fizyka</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td></td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">pp</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t12">2</td>
-            <td class="tg-t13">72</td>
+            <td class="tabelka">przedsięb.</td>
+            <td> </td>
+            <td>1</td>
+            <td>1</td>
+            <td></td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">plastyka</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t12">1</td>
-            <td class="tg-t13">36</td>
+            <td class="tabelka">plastyka</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">informatyka</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t12">3</td>
-            <td class="tg-t13">108</td>
+            <td class="tabelka">informatyka</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td></td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">edb</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t12">1</td>
-            <td class="tg-t13">36</td>
+            <td class="tabelka">e_dla_bezp</td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">religia</td>
-            <td class="tg-t11">2</td>
-            <td class="tg-t11">2</td>
-            <td class="tg-t11">2</td>
-            <td class="tg-t11">2</td>
-            <td class="tg-t12">8</td>
-            <td class="tg-t13">288</td>
+            <td class="tabelka">religia</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">wdżwr</td>
-            <td class="tg-t11">14r</td>
-            <td class="tg-t11">14r</td>
-            <td class="tg-t11">14r</td>
-            <td class="tg-t11">-</td>
-            <td class="tg-t12">1,11</td>
-            <td class="tg-t13">42</td>
+            <td class="tabelka">wych.rodz</td>
+            <td>14r</td>
+            <td>14r</td>
+            <td>14r</td>
+            <td></td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">doradztwo zaw.</td>
-            <td class="tg-t11">2r</td>
-            <td class="tg-t11">2r</td>
-            <td class="tg-t11">3r</td>
-            <td class="tg-t11">3r</td>
-            <td class="tg-t12">0,26</td>
-            <td class="tg-t13">10</td>
+            <td class="tabelka">doradz.zaw.</td>
+            <td>2r</td>
+            <td>2r</td>
+            <td>3r</td>
+            <td>3r</td>
           </tr>
           <tr>
-            <td class="tg-t1">1D</td>
-            <td class="tg-t1">geografia R</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">1</td>
-            <td class="tg-t11">2</td>
-            <td class="tg-t11">4+1</td>
-            <td class="tg-t12">8+1</td>
-            <td class="tg-t13">288+30</td>
+            <td class="tabelka">r_matematyka</td>
+            <td>2</td>
+            <td>3</td>
+            <td>3</td>
+            <td>2;1dyr</td>
           </tr>
           <tr>
-            <td class="tg-t14">1D</td>
-            <td class="tg-t14">informatyka R</td>
-            <td class="tg-t4">1</td>
-            <td class="tg-t4">1</td>
-            <td class="tg-t4">2</td>
-            <td class="tg-t4">3+1</td>
-            <td class="tg-t12">7+1</td>
-            <td class="tg-t13">252+30</td>
+            <td class="tabelka">r_geografia</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>4;1dyr</td>
           </tr>
           <tr>
-            <td class="tg-t14">1D</td>
-            <td class="tg-t14">matematyka R</td>
-            <td class="tg-t4">2</td>
-            <td class="tg-t4">3</td>
-            <td class="tg-t4">3</td>
-            <td class="tg-t4">2+1</td>
-            <td class="tg-t12">10+1</td>
-            <td class="tg-t13">360+30</td>
-          </tr>
-          <tr>
-            <td class="tg-t14" colspan="2">
-              Razem
-            </td>
-            <td class="tg-t6">32,42</td>
-            <td class="tg-t6">36,42</td>
-            <td class="tg-t6">34,45</td>
-            <td class="tg-t6">30,08</td>
-            <td class="tg-t15">133,37+3</td>
-            <td class="tg-t16">4801,32+90</td>
+            <td class="tabelka">r_informat.</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3;1dyr</td>
           </tr>
         </tbody>
       </table>
