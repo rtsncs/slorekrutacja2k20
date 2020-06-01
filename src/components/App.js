@@ -17,6 +17,7 @@ const App = () => {
       <div className="App">
         <Header />
         <Intro />
+        <Menu />
         <Switch>
           <Route path="/class-a">
             <ClassA />
@@ -35,9 +36,6 @@ const App = () => {
           </Route>
           <Route path="/class-f">
             <ClassF />
-          </Route>
-          <Route path="/">
-            <Menu />
           </Route>
         </Switch>
       </div>
