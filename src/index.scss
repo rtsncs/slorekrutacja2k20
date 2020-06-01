@@ -78,7 +78,7 @@ a {
   opacity: 0.5;
 }
 .textContainer {
-  width: 85vw;
+  width: 90vw;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2vw;
@@ -105,11 +105,7 @@ a {
   padding: 7px;
 }
 
-//table
-.table_header {
-  font-size: 30px;
-}
-.table {
+.tab {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 40vw;
@@ -199,7 +195,7 @@ footer {
 
 //Klasy
 .choiceMenu {
-  width: 80vw;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -207,7 +203,7 @@ footer {
 }
 .classes {
   display: flex;
-  flex-wrap: wrap;
+  //flex-wrap: wrap;
   width: 100%;
   padding-bottom: 20px;
 }
@@ -219,9 +215,13 @@ footer {
   margin-left: 5px;
   margin-top: 5px;
   font-size: 2rem;
+  transition: 0.2s ease-in-out;
   .kafle:first-child {
     margin-left: none;
   }
+}
+.kafle:hover {
+  background-color: limegreen;
 }
 @media (max-width: 500px) {
   .classes {
@@ -232,5 +232,17 @@ footer {
       padding: 20px 0;
       margin-left: 0;
     }
+  }
+}
+
+#content {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  h1 {
+    text-align: center;
+  }
+  li {
+    text-align: justify;
   }
 }
