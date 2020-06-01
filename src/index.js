@@ -23,8 +23,8 @@ document.addEventListener("scroll", () => {
 ///scrollTo script
 
 const smoothScroll = (target, duration) => {
-  const target = document.querySelector(target);
-  let targetPosition = target.getBoundingClientRect().top;
+  const purpose = document.querySelector(target);
+  let targetPosition = purpose.getBoundingClientRect().top;
   let startPosition = window.pageYOffset;
   let distance = targetPosition - startPosition;
   let startTime = null;
