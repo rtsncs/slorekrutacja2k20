@@ -37,9 +37,6 @@ const App = () => {
           <Route path="/class-f">
             <ClassF />
           </Route>
-          <Route>
-            <Menu />
-          </Route>
         </Switch>
       </div>
       <Footer />
