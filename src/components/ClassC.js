@@ -26,180 +26,172 @@ const ClassC = () => {
       </li>
 
       <table className="tab">
+        <thead>
+          <tr>
+            <th>Rok/klasa</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+          </tr>
+        </thead>
         <tbody>
           <tr>
-            <td>
-              <strong> Rok/klasa </strong>
-            </td>
-            <td>
-              <strong> 1 </strong>
-            </td>
-            <td>
-              <strong> 2 </strong>
-            </td>
-            <td>
-              <strong> 3 </strong>
-            </td>
-            <td>
-              <strong> 4 </strong>
-            </td>
-          </tr>
-          <tr>
-            <td> J.Polski </td>
+            <th> j.polski </th>
             <td> 4 </td>
             <td> 4 </td>
             <td> 4 </td>
             <td> 4 </td>
           </tr>
           <tr>
-            <td> J.Angielski </td>
+            <th> j.angielski </th>
             <td> 3 </td>
             <td> 3 </td>
             <td> 3 </td>
             <td> 3 </td>
           </tr>
           <tr>
-            <td> J.Niemiecki </td>
+            <th> j.niemiecki </th>
             <td> 2(1j) </td>
             <td> 2(1j) </td>
             <td> 2(1j) </td>
             <td> 2(1j) </td>
           </tr>
           <tr>
-            <td> J.Francuski </td>
+            <th> j.francuski </th>
             <td> 2(1j) </td>
             <td> 2(1j) </td>
             <td> 2(1j) </td>
             <td> 2(1j) </td>
           </tr>
           <tr>
-            <td> Matematyka </td>
+            <th> matematyka </th>
             <td> 3 </td>
             <td> 4 </td>
             <td> 3 </td>
             <td> 4 </td>
           </tr>
           <tr>
-            <td> WF </td>
+            <th> wf </th>
             <td> 3 </td>
             <td> 3 </td>
             <td> 3 </td>
             <td> 3 </td>
           </tr>
           <tr>
-            <td> Godz. wych. </td>
+            <th> godz.wych. </th>
             <td> 1 </td>
             <td> 1 </td>
             <td> 1 </td>
             <td> 1 </td>
           </tr>
           <tr>
-            <td> Biologia </td>
+            <th> biologia </th>
             <td> 1 </td>
             <td> 2 </td>
             <td> 1 </td>
             <td></td>
           </tr>
           <tr>
-            <td> Chemia </td>
+            <th> chemia </th>
             <td> 1 </td>
             <td> 2 </td>
             <td> 1 </td>
             <td></td>
           </tr>
           <tr>
-            <td> Geografia </td>
+            <th> geografia </th>
             <td> 1 </td>
             <td> 2 </td>
             <td> 1 </td>
             <td></td>
           </tr>
           <tr>
-            <td> Historia </td>
+            <th> historia </th>
             <td> 2 </td>
             <td> 2 </td>
             <td> 2 </td>
             <td> 2 </td>
           </tr>
           <tr>
-            <td> WoS </td>
+            <th> wos </th>
             <td> 1 </td>
             <td> 1 </td>
             <td></td>
             <td></td>
           </tr>
           <tr>
-            <td> Fizyka </td>
+            <th> fizyka </th>
             <td> 1 </td>
             <td> 1 </td>
             <td> 2 </td>
             <td></td>
           </tr>
           <tr>
-            <td> Przedsięb. </td>
+            <th> przedsięb. </th>
             <td></td>
             <td> 1 </td>
             <td> 1 </td>
             <td></td>
           </tr>
           <tr>
-            <td> Plastyka </td>
+            <th> plastyka </th>
             <td> 1 </td>
             <td></td>
             <td></td>
             <td></td>
           </tr>
           <tr>
-            <td> Informatyka </td>
+            <th> informatyka </th>
             <td> 1 </td>
             <td> 1 </td>
             <td> 1 </td>
             <td></td>
           </tr>
           <tr>
-            <td> E. dla bezp. </td>
+            <th> e_dla_bezp </th>
             <td> 1 </td>
             <td></td>
             <td></td>
             <td></td>
           </tr>
           <tr>
-            <td> Religia </td>
+            <th> religia </th>
             <td> 2 </td>
             <td> 2 </td>
             <td> 2 </td>
             <td> 2 </td>
           </tr>
           <tr>
-            <td> Wych.rodz. </td>
+            <th> wych.rodz. </th>
             <td> 14r </td>
             <td> 14r </td>
             <td> 14r </td>
             <td></td>
           </tr>
           <tr>
-            <td> Doradz.zaw. </td>
+            <th> doradz.zaw. </th>
             <td> 2r </td>
             <td> 2r </td>
             <td> 3r </td>
             <td> 3r </td>
           </tr>
           <tr>
-            <td> R. matematyka </td>
+            <th> r_matematyka </th>
             <td> 2 </td>
             <td> 2 </td>
             <td> 3 </td>
             <td> 3;1dyr </td>
           </tr>
           <tr>
-            <td> R. fizyka </td>
+            <th> r_fizyka </th>
             <td> 1 </td>
             <td> 2 </td>
             <td> 2 </td>
             <td> 3;1dyr </td>
           </tr>
           <tr>
-            <td> R. informatyka </td>
+            <th> r_informatyka </th>
             <td> 1 </td>
             <td> 1 </td>
             <td> 2 </td>

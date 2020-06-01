@@ -31,7 +31,7 @@ const ClassA = () => {
       <table class="tab">
         <thead>
           <tr>
-            <th>klasa</th>
+            <th>Rok/klasa</th>
             <th>1</th>
             <th>2</th>
             <th>3</th>
@@ -40,28 +40,28 @@ const ClassA = () => {
         </thead>
         <tbody>
           <tr>
-            <th>język polski</th>
+            <th>j.polski</th>
             <td>4</td>
             <td>4</td>
             <td>4</td>
             <td>4</td>
           </tr>
           <tr>
-            <th>język angielski</th>
+            <th>j.angielski</th>
             <td>3</td>
             <td>3</td>
             <td>3</td>
             <td>3</td>
           </tr>
           <tr>
-            <th>język niemiecki</th>
+            <th>j.niemiecki</th>
             <td>2(1j)</td>
             <td>2(1j)</td>
             <td>2(1j)</td>
             <td>2(1j)</td>
           </tr>
           <tr>
-            <th>język francuski</th>
+            <th>j.francuski</th>
             <td>2(1j)</td>
             <td>2(1j)</td>
             <td>2(1j)</td>
@@ -75,14 +75,14 @@ const ClassA = () => {
             <td>4</td>
           </tr>
           <tr>
-            <th>wychowanie fizyczne</th>
+            <th>wf</th>
             <td>3</td>
             <td>3</td>
             <td>3</td>
             <td>3</td>
           </tr>
           <tr>
-            <th>godzina wychowawcza</th>
+            <th>godz_wych</th>
             <td>1</td>
             <td>1</td>
             <td>1</td>
@@ -131,7 +131,7 @@ const ClassA = () => {
             <td>-</td>
           </tr>
           <tr>
-            <th>przedsiębiorczość</th>
+            <th>przedsięb.</th>
             <td>-</td>
             <td>1</td>
             <td>1</td>
@@ -152,7 +152,7 @@ const ClassA = () => {
             <td>-</td>
           </tr>
           <tr>
-            <th>edukacja dla bezpieczeństwa</th>
+            <th>e_dla_bezp</th>
             <td>1</td>
             <td>-</td>
             <td>-</td>
@@ -187,14 +187,14 @@ const ClassA = () => {
             <td>2</td>
           </tr>
           <tr>
-            <th>wychowanie rodzinne</th>
+            <th>wych.rodz</th>
             <td>14r</td>
             <td>14r</td>
             <td>14r</td>
             <td>-</td>
           </tr>
           <tr>
-            <th>doradztwo zawodowe</th>
+            <th>doradz.zaw.</th>
             <td>2r</td>
             <td>2r</td>
             <td>3r</td>

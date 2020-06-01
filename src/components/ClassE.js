@@ -3,7 +3,7 @@ import React from "react";
 const classE = () => {
   return (
     <div id="content">
-      <h1>KLASA 1D - MAT-GEO-INF</h1>
+      <h1>KLASA 1E - MAT-GEO-ANG</h1>
       <h2>Powinieneś wybrać klasę o takim nachyleniu przedmiotowym, jeśli:</h2>
       <li>
         pragniesz pogłębiać wiedzę i umiejętności z zakresu geografii i
@@ -43,161 +43,161 @@ const classE = () => {
         </thead>
         <tbody>
           <tr>
-            <td>j.polski</td>
+            <th>j.polski</th>
             <td>4</td>
             <td>4</td>
             <td>4</td>
             <td>4</td>
           </tr>
           <tr>
-            <td>j.angielski</td>
+            <th>j.angielski</th>
             <td>3</td>
             <td>3</td>
             <td>3</td>
             <td>3</td>
           </tr>
           <tr>
-            <td>j.niemiecki</td>
+            <th>j.niemiecki</th>
             <td>2(1j) </td>
             <td>2(1j) </td>
             <td>2(1j) </td>
             <td>2(1j) </td>
           </tr>
           <tr>
-            <td>j.francuski</td>
+            <th>j.francuski</th>
             <td>2(1j) </td>
             <td>2(1j) </td>
             <td>2(1j) </td>
             <td>2(1j) </td>
           </tr>
           <tr>
-            <td>matematyka</td>
+            <th>matematyka</th>
             <td>3</td>
             <td>4</td>
             <td>3</td>
             <td>4</td>
           </tr>
           <tr>
-            <td>wf</td>
+            <th>wf</th>
             <td>3</td>
             <td>3</td>
             <td>3</td>
             <td>3</td>
           </tr>
           <tr>
-            <td>godz.wych</td>
+            <th>godz.wych</th>
             <td>1</td>
             <td>1</td>
             <td>1</td>
             <td>1</td>
           </tr>
           <tr>
-            <td>biologia </td>
+            <th>biologia </th>
             <td>1</td>
             <td>2</td>
             <td>1</td>
             <td></td>
           </tr>
           <tr>
-            <td>chemia</td>
+            <th>chemia</th>
             <td>1</td>
             <td>2</td>
             <td>1</td>
             <td></td>
           </tr>
           <tr>
-            <td>geografia</td>
+            <th>geografia</th>
             <td>1</td>
             <td>2</td>
             <td>1</td>
             <td></td>
           </tr>
           <tr>
-            <td>historia </td>
+            <th>historia </th>
             <td>2</td>
             <td>2</td>
             <td>2</td>
             <td>2</td>
           </tr>
           <tr>
-            <td>wos </td>
+            <th>wos </th>
             <td>1</td>
             <td>1</td>
             <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>fizyka </td>
+            <th>fizyka </th>
             <td>1</td>
             <td>1</td>
             <td>2</td>
             <td></td>
           </tr>
           <tr>
-            <td>przedsięb.</td>
+            <th>przedsięb.</th>
             <td></td>
             <td>1</td>
             <td>1</td>
             <td></td>
           </tr>
           <tr>
-            <td>plastyka</td>
+            <th>plastyka</th>
             <td>1</td>
             <td></td>
             <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>informatyka</td>
+            <th>informatyka</th>
             <td>1</td>
             <td>1</td>
             <td>1</td>
             <td></td>
           </tr>
           <tr>
-            <td>e_dla_bezp</td>
+            <th>e_dla_bezp</th>
             <td>1</td>
             <td></td>
             <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>religia</td>
+            <th>religia</th>
             <td>2</td>
             <td>2</td>
             <td>2</td>
             <td>2</td>
           </tr>
           <tr>
-            <td>wych.rodz</td>
+            <th>wych.rodz</th>
             <td>14r</td>
             <td>14r</td>
             <td>14r</td>
             <td></td>
           </tr>
           <tr>
-            <td>doradz. zaw.</td>
+            <th>doradz.zaw.</th>
             <td>2r</td>
             <td>2r</td>
             <td>3r</td>
             <td>3r</td>
           </tr>
           <tr>
-            <td>r_matematyka</td>
+            <th>r_matematyka</th>
             <td>2</td>
             <td>3</td>
             <td>2</td>
             <td>3;1dyr</td>
           </tr>
           <tr>
-            <td>r_geografia</td>
+            <th>r_geografia</th>
             <td>1</td>
             <td>1</td>
             <td>3</td>
             <td>3;1dyr</td>
           </tr>
           <tr>
-            <td>r_angielski </td>
+            <th>r_angielski </th>
             <td>1</td>
             <td>1</td>
             <td>2</td>

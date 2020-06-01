@@ -34,170 +34,170 @@ const ClassD = () => {
       <table class="tab">
         <thead>
           <tr>
-            <th class="tabelka">Rok/klasa</th>
-            <th class="tabelka">1</th>
-            <th class="tabelka">2</th>
-            <th class="tabelka">3</th>
-            <th class="tabelka">4</th>
+            <th>Rok/klasa</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="tabelka">j.polski</td>
+            <th>j.polski</th>
             <td>4</td>
             <td>4</td>
             <td>4</td>
             <td>4</td>
           </tr>
           <tr>
-            <td class="tabelka">j.angielski</td>
+            <th>j.angielski</th>
             <td>3</td>
             <td>3</td>
             <td>3</td>
             <td>3</td>
           </tr>
           <tr>
-            <td class="tabelka">j.niemiecki</td>
+            <th>j.niemiecki</th>
             <td>2(1j)</td>
             <td>2(1j)</td>
             <td>2(1j)</td>
             <td>2(1j)</td>
           </tr>
           <tr>
-            <td class="tabelka">j.francuski</td>
+            <th>j.francuski</th>
             <td>2(1j)</td>
             <td>2(1j)</td>
             <td>2(1j)</td>
             <td>2(1j)</td>
           </tr>
           <tr>
-            <td class="tabelka">matematyka</td>
+            <th>matematyka</th>
             <td>3</td>
             <td>4</td>
             <td>3</td>
             <td>4</td>
           </tr>
           <tr>
-            <td class="tabelka">wf</td>
+            <th>wf</th>
             <td>3</td>
             <td>3</td>
             <td>3</td>
             <td>3</td>
           </tr>
           <tr>
-            <td class="tabelka">godz.wych</td>
+            <th>godz.wych</th>
             <td>1</td>
             <td>1</td>
             <td>1</td>
             <td>1</td>
           </tr>
           <tr>
-            <td class="tabelka">biologia</td>
+            <th>biologia</th>
             <td>1</td>
             <td>2</td>
             <td>1</td>
             <td></td>
           </tr>
           <tr>
-            <td class="tabelka">chemia</td>
+            <th>chemia</th>
             <td>1</td>
             <td>2</td>
             <td>1</td>
             <td></td>
           </tr>
           <tr>
-            <td class="tabelka">geografia</td>
+            <th>geografia</th>
             <td>1</td>
             <td>2</td>
             <td>1</td>
             <td></td>
           </tr>
           <tr>
-            <td class="tabelka">historia</td>
+            <th>historia</th>
             <td>2</td>
             <td>2</td>
             <td>2</td>
             <td>2</td>
           </tr>
           <tr>
-            <td class="tabelka">wos</td>
+            <th>wos</th>
             <td>1</td>
             <td>1</td>
             <td></td>
             <td></td>
           </tr>
           <tr>
-            <td class="tabelka">fizyka</td>
+            <th>fizyka</th>
             <td>1</td>
             <td>1</td>
             <td>2</td>
             <td></td>
           </tr>
           <tr>
-            <td class="tabelka">przedsięb.</td>
+            <th>przedsięb.</th>
             <td> </td>
             <td>1</td>
             <td>1</td>
             <td></td>
           </tr>
           <tr>
-            <td class="tabelka">plastyka</td>
+            <th>plastyka</th>
             <td>1</td>
             <td></td>
             <td></td>
             <td></td>
           </tr>
           <tr>
-            <td class="tabelka">informatyka</td>
+            <th>informatyka</th>
             <td>1</td>
             <td>1</td>
             <td>1</td>
             <td></td>
           </tr>
           <tr>
-            <td class="tabelka">e_dla_bezp</td>
+            <th>e_dla_bezp</th>
             <td>1</td>
             <td></td>
             <td></td>
             <td></td>
           </tr>
           <tr>
-            <td class="tabelka">religia</td>
+            <th>religia</th>
             <td>2</td>
             <td>2</td>
             <td>2</td>
             <td>2</td>
           </tr>
           <tr>
-            <td class="tabelka">wych.rodz</td>
+            <th>wych.rodz</th>
             <td>14r</td>
             <td>14r</td>
             <td>14r</td>
             <td></td>
           </tr>
           <tr>
-            <td class="tabelka">doradz.zaw.</td>
+            <th>doradz.zaw.</th>
             <td>2r</td>
             <td>2r</td>
             <td>3r</td>
             <td>3r</td>
           </tr>
           <tr>
-            <td class="tabelka">r_matematyka</td>
+            <th>r_matematyka</th>
             <td>2</td>
             <td>3</td>
             <td>3</td>
             <td>2;1dyr</td>
           </tr>
           <tr>
-            <td class="tabelka">r_geografia</td>
+            <th>r_geografia</th>
             <td>1</td>
             <td>1</td>
             <td>2</td>
             <td>4;1dyr</td>
           </tr>
           <tr>
-            <td class="tabelka">r_informat.</td>
+            <th>r_informat.</th>
             <td>1</td>
             <td>1</td>
             <td>2</td>
