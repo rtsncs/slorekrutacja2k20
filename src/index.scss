@@ -4,6 +4,24 @@
   justify-content: center;
   align-items: center;
 }
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes border {
+  from {
+    border-bottom: red solid 2px;
+  }
+}
+@keyframes darken {
+  from {
+    opacity: 0.2;
+  }
+}
 
 * {
   padding: 0;
@@ -29,6 +47,10 @@ a {
   align-items: center;
   background-color: #141414;
   border-bottom: green solid 2px;
+  animation-name: border;
+  animation-duration: 2.3s;
+  z-index: 100;
+  transition: 0.5s ease-in;
   .logo {
     width: 30%;
     font-size: 3rem;
@@ -38,6 +60,13 @@ a {
     list-style-type: none;
     .option {
       padding: 0 20px;
+      transition: ease-in 0.2s;
+    }
+    a {
+      transition: ease-in 0.2s;
+    }
+    a:hover {
+      color: green;
     }
   }
 }
@@ -58,6 +87,8 @@ a {
     font-size: 3rem;
     text-align: center;
     width: 65%;
+    animation-name: fade;
+    animation-duration: 2s;
   }
 }
 @media (max-width: 600px) {
@@ -76,6 +107,8 @@ a {
   top: 0;
   z-index: 1;
   opacity: 0.5;
+  animation-duration: 1s;
+  animation-name: darken;
 }
 .textContainer {
   width: 90vw;
@@ -103,25 +136,6 @@ a {
 .leavs li {
   list-style-type: none;
   padding: 7px;
-}
-
-.tab {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 40vw;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  td,
-  th {
-    border: 2px solid black;
-  }
-  th {
-    background-color: rgb(0, 100, 17);
-  }
-  td {
-    background-color: #3d3d3d;
-  }
 }
 
 footer {
@@ -209,7 +223,7 @@ footer {
 }
 .kafle {
   @include center();
-  padding: 60px 0;
+  height: 140px;
   width: 32%;
   background-color: green;
   margin-left: 5px;
@@ -222,6 +236,8 @@ footer {
 }
 .kafle:hover {
   background-color: limegreen;
+  font-size: 2.4rem;
+  transform: scale(1.02);
 }
 @media (max-width: 500px) {
   .classes {
@@ -241,8 +257,43 @@ footer {
   margin-right: auto;
   h1 {
     text-align: center;
+    margin-bottom: 40px;
+    border-bottom: solid green 2px;
+  }
+  h2 {
+    padding-bottom: 20px;
   }
   li {
     text-align: justify;
+    list-style-type: "▹ ";
   }
+  @media (min-width: 600px) {
+    .tab {
+      width: 80%;
+    }
+  }
+}
+
+.tab {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  td,
+  th {
+    border: 1px solid black;
+  }
+  // th {
+  //   background-color: rgb(0, 100, 17);
+  // }
+  td {
+    background-color: #3d3d3d;
+  }
+}
+.sticky {
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
