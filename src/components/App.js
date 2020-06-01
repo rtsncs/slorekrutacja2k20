@@ -37,6 +37,7 @@ const App = () => {
           <Route path="/class-f">
             <ClassF />
           </Route>
+          <Route path="/"></Route>
         </Switch>
       </div>
       <Footer />
