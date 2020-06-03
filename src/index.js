@@ -8,7 +8,6 @@ const root = document.getElementById("root");
 ReactDOM.render(<App />, root);
 
 const header = document.querySelector(".mainHeader");
-const moniorHeight = window.innerHeight;
 const app = document.querySelector(".App");
 
 document.addEventListener("scroll", () => {
@@ -48,7 +47,6 @@ const smoothScroll = (target, duration) => {
 };
 
 const section1 = document.querySelector(".scroll");
-const section2 = document.querySelector(".footerContainer");
 
 section1.addEventListener("click", () => {
   smoothScroll(".footerContainer", 1000);
