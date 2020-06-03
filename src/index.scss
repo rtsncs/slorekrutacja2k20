@@ -223,6 +223,7 @@ footer {
 }
 .kafle {
   @include center();
+  flex-direction: column;
   height: 140px;
   width: 32%;
   background-color: green;
@@ -230,6 +231,9 @@ footer {
   margin-top: 5px;
   font-size: 2.5rem;
   transition: 0.2s ease-in-out;
+  .smol {
+    font-size: 0.5em;
+  }
   .kafle:first-child {
     margin-left: none;
   }
