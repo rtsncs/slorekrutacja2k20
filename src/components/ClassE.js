@@ -23,12 +23,11 @@ const classE = () => {
         chcesz zmierzyć się z najlepszymi w olimpiadach i konkursach
         przedmiotowych, np.: w Ogólnopolskiej Olimpiadzie Geograficznej,
         Olimpiadzie o Diamentowy Indeks AGH, w Podkarpackim Konkursie
-        Matematycznym im. F. Leji;
+        Matematycznym im. F. Leji, w Olimpiadzie Języka Angielskiego;
       </li>
-      <li>chętniętnie pracujesz przy komputerze;</li>
       <li>
-        myślisz o przystapieniu do egzaminu maturalnego z geografii, matematyki,
-        informatyki na poziomie rozszerzonym
+        myślisz o przystąpieniu do egzaminu maturalnego z geografii, matematyki,
+        języka angielskiego na poziomie rozszerzonym.
       </li>
 
       <table class="tab">
